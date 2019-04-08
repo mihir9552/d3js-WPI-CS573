@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+
+    <title>mod Pitch3</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/d3@5.6.0/dist/d3.min.js"></script>
+  </head>
+  <body>
+    <svg width="960" height="500">
+      <defs>
+        <marker
+          id="arrow"
+          markerUnits="strokeWidth"
+          markerWidth="12"
+          markerHeight="12"
+          viewBox="0 0 12 12"
+          refX="6"
+          refY="6"
+          orient="auto"
+        >
+          <path d="M2,2 L10,6 L2,10 L6,6 L2,2" style="fill: #f00;"></path>
+        </marker>
+        <marker
+          id="franceArrow"
+          markerUnits="strokeWidth"
+          markerWidth="12"
+          markerHeight="12"
+          viewBox="0 0 12 12"
+          refX="6"
+          refY="6"
+          orient="auto"
+        >
+          <path d="M2,2 L10,6 L2,10 L6,6 L2,2" style="fill: #0146AD;"></path>
+        </marker>
+      </defs>
+      <div id="statsBox"></div>
+      <div id="slider-holder"></div>
+    </svg>
+    <script src="index.js"></script>
+  </body>
+</html>

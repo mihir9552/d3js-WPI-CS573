@@ -1,0 +1,17 @@
+body {
+  margin: 0px;
+  overflow: hidden;
+}
+
+rect {
+  fill: #0070c0;
+}
+
+text {
+  font-size: 1.1em;
+}
+
+#legend {
+  font-size: 0.6em;
+  padding-left: 850px;
+}

@@ -1,0 +1,36 @@
+body {
+  margin: 0px;
+  overflow: hidden;
+}
+
+text {
+  font-family: "arial";
+}
+
+.legend {
+  font-size: 0.8em;
+  cursor: pointer;
+  fill: #635f5d;
+}
+
+.tick text {
+  font-size: 1.5em;
+  fill: #635f5d;
+}
+
+.tick line {
+  stroke: #c0c0bb;
+  opacity: 0.6;
+}
+
+.axis-label {
+  font-size: 4em;
+  fill: #8e8883;
+}
+
+.title {
+  font-size: 1.7em;
+  fill: #635f5d;
+  text-anchor: middle;
+  font-weight: bold;
+}

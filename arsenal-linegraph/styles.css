@@ -1,0 +1,67 @@
+body {
+  margin: 0px;
+  overflow: hidden;
+}
+
+circle {
+  fill: steelblue;
+}
+
+.line-path {
+  fill: none;
+  stroke: #3869b1;
+  stroke-width: 3;
+  stroke-linejoin: round;
+}
+
+.new-line-path {
+  fill: none;
+  stroke: #da7e30;
+  stroke-width: 3;
+  stroke-linejoin: round;
+}
+
+.another-line-path {
+  fill: none;
+  stroke: #3f9852;
+  stroke-width: 3;
+  stroke-linejoin: round;
+}
+
+.toomany-line-path {
+  fill: none;
+  stroke: #cc2428;
+  stroke-width: 3;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.last-line-path {
+  fill: none;
+  stroke: #535055;
+  stroke-width: 3;
+  stroke-linejoin: round;
+}
+
+text {
+  font-family: sans-serif;
+}
+
+.tick text {
+  font-size: 1.6em;
+  fill: #635f5d;
+}
+
+.tick line {
+  stroke: #c0c0bb;
+}
+
+.axis-label {
+  font-size: 5em;
+  fill: #8e8883;
+}
+
+.title {
+  font-size: 2.6em;
+  fill: #635f5d;
+}
